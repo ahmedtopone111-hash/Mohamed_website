@@ -11,24 +11,29 @@ body{
                                           font-family:Arial;
                                           }
 }
-.A{
+.A, .B {
     position: fixed;
-    bottom: 20px;
     right: 20px;
-
-    background: #25D366;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-
-    padding: 12px 18px;
-    border-radius: 50px;
-
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-
-    transition: 0.3s;
+    font-size: 25px;
 }
 
-.A:hover{
-    background: #128C7E;              /* تغيير اللون */
-    transform: scale(1.1) translateY(-5px); /*
+.A {
+    bottom: 80px;
+    background: #25D366;
+}
+
+.B {
+    bottom: 20px;
+    background: #1877f2;
+}
+
+.A:hover, .B:hover {
+    transform: scale(1.1);
+}
