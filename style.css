@@ -44,9 +44,10 @@ body{
     width: 50px;
     height: 50px;
 }
-img {
-   position: fixed;
-      right:50px;
-      width: 200px;
-      hight: 80px;
+.photo {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto 20px;
+    border-radius: 15px;
 }
